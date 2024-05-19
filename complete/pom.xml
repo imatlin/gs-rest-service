@@ -16,6 +16,12 @@
 	<properties>
 		<java.version>17</java.version>
 	</properties>
+	<repositories>
+		<repository>
+			<id>apiProtectSdk</id>
+			<url>https://repos.securetheorem.com/api_protect_sdks/apiprotect-java</url>
+		</repository>
+	</repositories>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -26,6 +32,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.datatheorem</groupId>
+			<artifactId>apiProtectSdk_v3</artifactId>
+			<version>1.2.4</version>
 		</dependency>
 	</dependencies>
 
